@@ -1,0 +1,65 @@
+{
+  "threshold_revenue": 13584750.0,
+  "best_C": 0.3,
+  "n_data": 118,
+  "categories": {
+    "Property": [
+      "Cooperate",
+      "Owned",
+      "Rental",
+      "Rental/Cooperate"
+    ],
+    "Type": [
+      "Express",
+      "Extra",
+      "Hyper"
+    ],
+    "Old/New": [
+      "New",
+      "Old"
+    ]
+  },
+  "ranges": {
+    "AreaStore": [
+      82.0,
+      5600.0
+    ],
+    "Checkout Number": [
+      1.0,
+      14.0
+    ]
+  },
+  "cv_metrics": {
+    "accuracy": {
+      "mean": 0.8236594202898552,
+      "std": 0.06757961263035044
+    },
+    "precision": {
+      "mean": 0.8741127761127762,
+      "std": 0.0910376144741737
+    },
+    "recall": {
+      "mean": 0.7662121212121212,
+      "std": 0.12125955511279278
+    },
+    "f1": {
+      "mean": 0.8090625746488448,
+      "std": 0.0805633867724769
+    },
+    "roc_auc": {
+      "mean": 0.8975883838383838,
+      "std": 0.055206128205292956
+    }
+  },
+  "test_metrics": {
+    "accuracy": 0.8888888888888888,
+    "precision": 0.9375,
+    "recall": 0.8333333333333334,
+    "f1": 0.8823529411764706,
+    "auc": 0.9382716049382716,
+    "tn": 17,
+    "fp": 1,
+    "fn": 3,
+    "tp": 15
+  }
+}
